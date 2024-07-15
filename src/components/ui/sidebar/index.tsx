@@ -8,7 +8,7 @@ const Sidebar = () => {
       <div className="flex justify-center items-center pb-5">
         <Image
           src="/app-logo.svg"
-          alt="Vercel Logo"
+          alt="Accountal Logo"
           width={48}
           height={24}
           priority

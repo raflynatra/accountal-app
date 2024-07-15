@@ -1,6 +1,7 @@
 import AppBreadcrumbs from "@/components/ui/breadcrumbs";
 import MainHeader from "@/components/ui/header";
 import Sidebar from "@/components/ui/sidebar";
+import Toast from "@/components/ui/toast";
 import { Card } from "@nextui-org/react";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -18,6 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
         </div>
       </div>
+      <Toast />
     </main>
   );
 }
